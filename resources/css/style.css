@@ -1,3 +1,6 @@
+/*------------------------------------ */
+/*BASIC SETUP*/
+/*------------------------------------ */
 * {
     margin: 0px;
     padding: 0px;
@@ -13,6 +16,12 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*------------------------------------ */
+/*REUSABLE COMPONENTS*/
+/*------------------------------------ */
+
+
+
 .row {
     max-width: 1140px;
 /*    margin: 0 auto 0 auto;*/
@@ -20,6 +29,71 @@ html {
 }
 
 
+/*------------------------------------ */
+/*HEADINGS*/
+/*------------------------------------ */
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;   
+}
+
+
+/*------------------------------------ */
+/*BUTTONS*/
+/*------------------------------------ */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    font-weight: 300;
+    transition: background-color 0.2s, border 0.2s, color 0.2s
+}
+
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #fd9644;
+    color: #ffffff;
+    border: 1px solid #fd9644;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    color:#fd9644;
+    border: 1px solid#fd9644;
+}
+
+.btn:hover,
+.btn:active {
+     background-color: #fa8231;
+    
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+    color: #ffffff;
+    border: 1px solid #fa8231;
+}
+
+.btn-full:hover,
+.btn-full:active {
+/*    color: #ffffff;*/
+    border: 1px solid #fa8231;
+}
+
+
+/*------------------------------------ */
+/*HEADER*/
+/*------------------------------------ */
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68)), url(img/header.jpg);
@@ -37,33 +111,46 @@ header {
     transform: translate(-50%,-50%);
 }
 
-h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #ffffff;
-    font-size: 240%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
-    font-weight: 300;
-    text-transform: uppercase;
-    
+
+
+
+/*------------------------------------ */
+/*NAV BAR*/
+/*------------------------------------ */
+
+.logo {
+    float: left;
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
 }
 
-.btn {
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+
+}
+
+
+.main-nav li {
     display: inline-block;
-    padding: 10px 30px;
-    text-decoration: none;
-    border-radius: 200px;
+    margin-left: 40px;
 }
 
-
-.btn-full {
-    background-color: #e38517;
+.main-nav li a:link,
+.main-nav li a:visited,{
     color: #ffffff;
-    border: 1px solid #ffa500;
+    text-decoration: none;
+    font-size: .9em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 2px solid  transparent;
+    padding: 8px 0;
+
 }
 
-.btn-ghost {
-    color: #e38517;
-    border: 1px solid #ffa500;
-}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid  #fa8231;
+    
