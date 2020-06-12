@@ -19,12 +19,10 @@ html {
     margin: 0 auto;
 }
 
-h1 {
-    margin: 0;
-}
+
 
 header {
-    background-image: linear-gradient(black,black), url(img/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68)), url(img/header.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -37,4 +35,35 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+}
+
+
+.btn-full {
+    background-color: #e38517;
+    color: #ffffff;
+    border: 1px solid #ffa500;
+}
+
+.btn-ghost {
+    color: #e38517;
+    border: 1px solid #ffa500;
 }
