@@ -255,3 +255,52 @@ ion-icon {
   transform: scale(1.03); 
   opacity:1;
 }
+
+
+/*------------------------------------ */
+/*STEPS*/
+/*------------------------------------ */
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right : 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.work-step {
+    margin-bottom: 30px;
+}
+
+.work-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+
+.work-step div {
+    color: #fa8231;
+    border: 2px solid #fa8231;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    float: left;
+    margin-right: 25px;
+    padding: 5px;
+    font-size: 150%;
+}
+
+.btn-app img  {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
