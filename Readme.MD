@@ -1,5 +1,6 @@
 http://www.webdesigncourse.co/omnifood/index.php
 https://ionicons.com/
+https://css-tricks.com/snippets/html/glyphs/
 
 # Inital setup
 

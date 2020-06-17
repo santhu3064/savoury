@@ -16,6 +16,16 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+
+.clearfix {zoom:1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /*------------------------------------ */
 /*REUSABLE COMPONENTS*/
 /*------------------------------------ */
@@ -139,6 +149,7 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 
@@ -151,6 +162,27 @@ header {
 }
 
 
+
+/*------------------------------------ */
+/*LINKS*/
+/*------------------------------------ */
+
+
+a:visited,
+a:link {
+    color: #fa8231;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid  #fa8231; 
+}
+
+a:hover,
+a:active {
+    color: #555555;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+    
+}
 
 
 /*------------------------------------ */
@@ -202,11 +234,11 @@ header {
     padding: 80px 0;
 }
 
-ion-icon {
+ .icon_big {
     font-size: 300%;
     display: block;
     margin-bottom: 10px;
-/*    color: orange !important;*/
+    color: #fa8231;
 }
 
 .box {
@@ -249,6 +281,7 @@ ion-icon {
 }
 .meals-sections {
     padding: 0;
+    margin-bottom: 80px;
 }
 
 .meal-image img:hover{
@@ -257,9 +290,15 @@ ion-icon {
 }
 
 
+
 /*------------------------------------ */
 /*STEPS*/
 /*------------------------------------ */
+
+.section-steps {
+    background-color: #f4f4f4;
+    margin-bottom: 80px;
+}
 
 .steps-box:first-child {
     text-align: right;
@@ -303,4 +342,112 @@ ion-icon {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+
+.btn-app:visited,
+.btn-app:link {
+    border: 0px;
+}
+
+
+/*------------------------------------ */
+/*CITIES*/
+/*------------------------------------ */
+
+/*
+.city-images {
+    float: left;
+    overflow: hidden;
+}
+*/
+
+
+.city-images img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.city-details ion-icon {
+  color: #fa8231;
+    /*    secrets to align images and text*/
+    
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+
+.section-cities {
+    margin-bottom: 80px;
+}
+
+/*------------------------------------ */
+/*TESTIMONIALS*/
+/*------------------------------------ */
+
+
+.testimonial-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
+    background-size: cover;
+    color: #ffffff;
+    background-attachment: fixed;
+
+/*    color: #ffffff;*/
+    
+}
+.testimonial-section h2 {
+    margin-top: 80px;
+}
+blockquote {
+    padding: 2px;
+    font-style: italic;
+    line-height: 145%;
+        margin-top: 40px;
+    position: relative;
+}
+
+
+blockquote:before {
+    content: "\201C"; 
+    font-size: 400%;
+    display: block;
+/*    margin-bottom: 5px;*/
+/*    aligns it in the current block*/
+    position: absolute;
+    top: -5px;
+    left: -3px;   
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block; 
+/*    aligns it in the current block*/
+
+}
+
+cite img{
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+/*    Aligns to middle */
+}
+
+/*------------------------------------ */
+/*SUBSCRIPTION*/
+/*------------------------------------ */
+
+
+.subscription-section {
+    background-color: #f4f4f4;
+}
+
+.subscription-section h2{
+    padding-top: 80px;
 }
