@@ -255,6 +255,7 @@ a:active {
 /*------------------------------------ */
 
 
+
 .meals-showcase {
     list-style: none;
     width: 100%;
@@ -281,7 +282,6 @@ a:active {
 }
 .meals-sections {
     padding: 0;
-    margin-bottom: 80px;
 }
 
 .meal-image img:hover{
@@ -295,9 +295,11 @@ a:active {
 /*STEPS*/
 /*------------------------------------ */
 
+
 .section-steps {
     background-color: #f4f4f4;
     margin-bottom: 80px;
+    padding-top: 80px;
 }
 
 .steps-box:first-child {
@@ -407,7 +409,7 @@ blockquote {
     padding: 2px;
     font-style: italic;
     line-height: 145%;
-        margin-top: 40px;
+    margin-top: 40px;
     position: relative;
 }
 
@@ -451,3 +453,102 @@ cite img{
 .subscription-section h2{
     padding-top: 80px;
 }
+
+.subscription {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefefef;
+}
+/*
+    width: 90%;
+    margin-left: 5%;
+}
+*/
+.subscription div{
+    padding: 15px;
+    border: 1px solid #eae6e7;
+}
+
+*/
+.subscription div:first-child {
+    background-color: #fcfcfcfc;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+
+.subscription div:last-child {
+    text-align: center;
+    border:0;
+}
+
+
+.price-plan {
+    font-size: 300%;
+    color:#fa8231;
+    font-weight: 100;
+    margin-bottom: 10px;
+    }
+
+.price-plan span {
+    font-size: 30%;
+    font-weight: 300;
+    color:#fa8231;
+}
+.price-plan-meal {
+    font-size: 80%;
+}
+.subscription ul{
+    list-style: none;
+    
+}
+.subscription ul li {
+  padding: 5px 0;
+}
+
+.subscription ul li ion-icon {
+  color: #fa8231;
+}
+
+/*------------------------------------ */
+/*CONTACT SECTIOM*/
+/*------------------------------------ */
+
+.contact-section{
+    padding-top: 80px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+option {
+    font-weight: lighter;
+}
+
+*:focus {
+    outline: none;
+}
+
+

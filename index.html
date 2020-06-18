@@ -231,47 +231,52 @@
                 <h2>Start eating healthy today</h2>
             </div>
             <div class="row">
-                <div class="col span-1-of-3 subscription">
-                    <div>
-                        <h3>Premium</h3>
-                        <p class="price-plan">399$ / month</p>
-                        <p class="price-pan-meal">That’s only 13.30$ per meal</p>
-                    </div>
-                    <div>
+                <div class="col span-1-of-3">
+                    <div class="subscription">
+                        <div>
+                            <h3>Premium</h3>
+                            <p class="price-plan">399$ <span> / month</span></p>
+                            <p class="price-plan-meal">That’s only 13.30$ per meal</p>
+                        </div>
+                        <div>
                         <ul>
                             <li><ion-icon src="resources/img/checkmark.svg" size="small"></ion-icon>1 meal every day</li>
                             <li><ion-icon src="resources/img/checkmark.svg" size="small"></ion-icon>Order 24/7</li>
                             <li><ion-icon src="resources/img/checkmark.svg" size="small"></ion-icon>Access to newest creations</li>
                             <li><ion-icon src="resources/img/checkmark.svg" size="small"></ion-icon>Free delivery</li>
                         </ul>
-                    </div>
-                    <div>
-                        <a href="#" class="btn btn-full">Sign up now</a>
-                    </div>
-                </div>
-                <div class="col span-1-of-3 subscription">
-                    <div>
-                        <h3>Pro</h3>
-                        <p class="price-plan">149$ / month</p>
-                        <p class="price-pan-meal">That’s only 14.90$ per meal</p>
-                    </div>
-                    <div>
-                        <ul>
-                            <li><ion-icon src="resources/img/checkmark.svg" size="small"></ion-icon>1 meal 10 days/month</li>
-                            <li><ion-icon src="resources/img/checkmark.svg" size="small"></ion-icon>Order 24/7</li>
-                            <li><ion-icon src="resources/img/checkmark.svg" size="small"></ion-icon>Access to newest creations</li>
-                            <li><ion-icon src="resources/img/checkmark.svg" size="small"></ion-icon>Free delivery</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a  href="#" class="btn btn-ghost">Sign up now</a>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-full">Sign up now</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col span-1-of-3 subscription">
-                    <div>
+                <div class="col span-1-of-3">
+                    <div class="subscription">
+                        <div>
+                            <h3>Pro</h3>
+                            <p class="price-plan">149$ <span> / month</span></p>
+                            <p class="price-plan-meal">That’s only 14.90$ per meal</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><ion-icon src="resources/img/checkmark-outline.svg" size="small"></ion-icon>1 meal 10 days/month</li>
+                                <li><ion-icon src="resources/img/checkmark.svg" size="small"></ion-icon>Order 24/7</li>
+                                <li><ion-icon src="resources/img/checkmark.svg" size="small"></ion-icon>Access to newest creations</li>
+                                <li><ion-icon src="resources/img/checkmark.svg" size="small"></ion-icon>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a  href="#" class="btn btn-ghost">Sign up now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="subscription">
+                        <div>
                         <h3>Starter</h3>
-                        <p class="price-plan">19$ / meal</p>
-                        <p class="price-pan-meal"></p>
+                        <p class="price-plan">19$ <span> / meal</span></p>
+                        <p class="price-plan-meal">&nbsp;</p>
                     </div>
                     <div>
                         <ul>
@@ -286,17 +291,84 @@
                     </div>
                 </div>
             </div>
-            
+        </div>     
+        </section>
+        <section class="contact-section">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form action="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3 labels">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3 inputs">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                    </div>
+                        <div class="row">
+                        <div class="col span-1-of-3 labels">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3 inputs">
+                            <input type="text" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3 labels">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3 inputs">
+                            <select id="find-us" name="find-us">
+                                <option value="frineds" selected>Friends</option>
+                                <option value="search-engine">Search Engine</option>
+                                <option value="advertisement">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3 labels">
+                            <label for="newsletter">Newsletter?</label>
+                        </div>
+                        <div class="col span-2-of-3 inputs">
+                            <input  type="checkbox" id="newsletter" name="Yes, Please" checked>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3 labels">
+                            <label for="comment">Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3 inputs">
+                            <textarea name="comment" form="userform"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3 labels">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3 inputs">
+                            <a class="btn btn-full" href="#">Send it!</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </section>
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     </body> 
 </html>
 
 <!--
+                            <label>Email</label>
+                            <label>How did you find us?</label>
+                            <label>Newsletter</label>
+                            <label>Drop us a line</label>
+-->
 
-
-S	1.	Choose the subscription plan that best fits your needs and sign up today.
-	2.	Order your delicious meal using our mobile app or website. Or you can even call us!
-	3.	Enjoy your meal after less than 20 minutes. See you the next time!
-Order anything
-We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!-->
+<!--
+                            <input class="" placeholder="Your Email">
+                            <input class placeholder="Friends">
+                            <input  type="checkbox" id="vehicle1" name="Yes, Please">
+                            <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+-->
