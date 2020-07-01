@@ -26,3 +26,13 @@ html {
     text-rendering: optimizeLegibility;
 }
 ```
+
+
+# JQuery resources
+http://codingheroes.io/resources/
+
+Smooth scrolling
+
+https://css-tricks.com/snippets/jquery/smooth-scrolling/
+
+https://animate.style/
