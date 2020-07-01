@@ -191,11 +191,19 @@ a:active {
 /*NAV BAR*/
 /*------------------------------------ */
 
-.logo {
+.logo{
     float: left;
     height: 100px;
     width: auto;
     margin-top: 20px;
+}
+
+.logo-black{
+    display: none;
+    float: left;
+    height: 50px;
+    width: auto;
+    margin-top: 5px 0;
 }
 
 .main-nav {
@@ -227,6 +235,37 @@ a:active {
 .main-nav li a:active{
     border-bottom: 2px solid  #fa8231;
 }
+
+
+/*------------------------------------ */
+/*sticky nav BAR*/
+/*------------------------------------ */
+.sticky {
+    position: fixed;
+    background-color: rgb(255, 255, 255,0.98);
+    top: 0;
+    left: 0;
+    width: 100%; 
+    box-shadow: 0 2px 2px #efefefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    color: #555555;
+    padding: 15px 0;
+}
+
+.sticky .logo { display: none;}
+ .sticky .logo-black{
+     display: block;
+}
+
+ .sticky  .main-nav {
+    margin-top: 18px;
+
+}
+
 
 /*------------------------------------ */
 /*FEATURES*/
@@ -634,3 +673,4 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
+
