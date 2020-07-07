@@ -36,3 +36,25 @@ Smooth scrolling
 https://css-tricks.com/snippets/jquery/smooth-scrolling/
 
 https://animate.style/
+
+Add meta name="description" title="test " to see the iniatl information in google search
+
+validate htmnl using : https://validator.w3.org/nu/#textarea
+
+Keywords:
+
+Using for search enginess to effectively search ourt website. Donnot overuse keywords.
+
+Invetsigate on backlinks
+
+
+Webdwsigning blogs:
+
+designmodo
+
+sidebar.io
+1stwebdesigner
+
+sitepoint
+smashingmagazine
+hey designer    

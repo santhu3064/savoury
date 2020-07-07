@@ -82,4 +82,18 @@ $('a[href*="#"]')
         }, {
             offset: '50%'
         });
+    
+    // MObile navigation
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon ion-icon');
+        nav.slideToggle(200);
+      if (icon.getAttribute('src') == "resources/img/menu.svg") {
+          icon.src = "resources/img/close-circle.svg";
+        }
+        else {
+            icon.src = "resources/img/menu.svg";
+                             }
+        
+    });
 });

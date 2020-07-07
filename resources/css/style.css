@@ -236,7 +236,22 @@ a:active {
     border-bottom: 2px solid  #fa8231;
 }
 
+/*------------------------------------ */
+/*Mobile nav */
+/*------------------------------------ */
 
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon ion-icon {
+    color: white;
+    font-size: 200%;
+}
 /*------------------------------------ */
 /*sticky nav BAR*/
 /*------------------------------------ */
